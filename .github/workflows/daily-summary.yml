@@ -4,6 +4,10 @@ on:
   schedule:
     # 22:30 UTC = 06:30 Asia/Shanghai (GitHub schedules may start a little late)
     - cron: '30 22 * * *'
+  # Updating this workflow also performs a cloud smoke test.
+  push:
+    branches: [main]
+    paths: ['.github/workflows/daily-summary.yml']
   workflow_dispatch:
 
 jobs:
