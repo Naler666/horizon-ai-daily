@@ -19,7 +19,7 @@
     "default_profile": "ai-creator",
     "profile_settings": {
       "ai-creator": {
-        "threshold": 6.5,
+        "threshold": 5.0,
         "topic_dedup": true
       }
     }
@@ -158,6 +158,26 @@
           "min_score": 30,
           "category": "open-source",
           "profile": "ai-creator"
+        },
+        {
+          "subreddit": "ChatGPT",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 12,
+          "min_score": 20,
+          "category": "ai-applications",
+          "profile": "ai-creator"
+        },
+        {
+          "subreddit": "ClaudeAI",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 12,
+          "min_score": 20,
+          "category": "ai-applications",
+          "profile": "ai-creator"
         }
       ],
       "users": [],
@@ -224,41 +244,9 @@
     "profile_order": [
       "ai-creator"
     ],
-    "category_groups": {
-      "models": {
-        "name": "?????",
-        "limit": 4,
-        "categories": [
-          "model-news",
-          "ai-sdk"
-        ]
-      },
-      "research": {
-        "name": "?????",
-        "limit": 3,
-        "categories": [
-          "ai-research",
-          "open-source",
-          "llm-inference"
-        ]
-      },
-      "tools": {
-        "name": "?????",
-        "limit": 2,
-        "categories": [
-          "ai-tools"
-        ]
-      },
-      "china": {
-        "name": "????",
-        "limit": 3,
-        "categories": [
-          "china-ai"
-        ]
-      }
-    },
+    "category_groups": {},
     "default_group": "other",
-    "default_group_limit": 2
+    "default_group_limit": null
   },
   "webhook": {
     "enabled": false,
