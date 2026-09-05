@@ -1,8 +1,8 @@
 {
   "id": "ai-creator",
-  "name": "AI Application Learning Radar",
+  "name": "AI Learner Daily",
   "display_names": {
-    "zh": "AI应用学习雷达"
+    "zh": "AI学习者日报"
   },
   "match": "match.md",
   "analysis": "analysis.md",

@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: Horizon Daily
-description: DeepSeek 筛选生成的每日 AI 热点摘要
+description: 面向非技术学习者的每日 AI 热点、应用与实战摘要
 baseurl: "/horizon-ai-daily"
 url: "https://naler666.github.io"
 
@@ -21,3 +21,4 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+

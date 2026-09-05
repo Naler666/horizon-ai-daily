@@ -178,6 +178,16 @@
           "min_score": 20,
           "category": "ai-applications",
           "profile": "ai-creator"
+        },
+        {
+          "subreddit": "artificial",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 12,
+          "min_score": 30,
+          "category": "global-ai",
+          "profile": "ai-creator"
         }
       ],
       "users": [],
